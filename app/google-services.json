@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "474307665744",
+    "project_id": "db-sales-c958c",
+    "storage_bucket": "db-sales-c958c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474307665744:android:23867d65f4dddeaf315655",
+        "android_client_info": {
+          "package_name": "com.example.sales"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcDT3JUOY_0rpcUHmn7lV_kbAtLcy7E_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,6 @@
-package com.example.sales.data.local.repository
+package com.example.sales.data.repository
 
+import com.example.sales.data.repository.BaseInMemoryRepository
 import com.example.sales.domain.model.Product
 import com.example.sales.domain.repository.ProductRepository
 import kotlinx.coroutines.flow.Flow
@@ -33,5 +34,6 @@ class InMemoryProductRepository @Inject constructor()
         deleteById(productCode)
     }
 
+    //this returns a lot of elements that's why we use flow instead of list
     override fun getProducts(): Flow<List<Product>> = observeAll()
 }

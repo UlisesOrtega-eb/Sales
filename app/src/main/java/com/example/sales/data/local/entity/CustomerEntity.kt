@@ -7,9 +7,11 @@ import androidx.room.PrimaryKey
 data class CustomerEntity(
 
     @PrimaryKey
-    val id: String,
+    val code: String,
 
-    val name:String,
+    val name: String,
 
-    val email:String,
+    val email: String,
+
+    val purchaseHistory: String
 )
